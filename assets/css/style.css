@@ -1,0 +1,63 @@
+.img {
+  width: 30px;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+}
+
+.scroll-down-icon {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #343b43;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.scroll-down-icon a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.icon-circle {
+  width: 90px;
+  height: 90px;
+  background-color: #4a5568;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px auto;
+}
+
+.icon-circle i {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.btn-purple {
+  background-color: purple;
+  color: white;
+  border: none;
+}
+
+.btn-purple:hover {
+  background-color: #5e2a84;
+  color: white;
+}
